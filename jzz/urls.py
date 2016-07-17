@@ -8,8 +8,10 @@ urlpatterns = patterns('',
     # url(r'^$', 'jzz.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
     #url(r'^blog/', include('blog.urls')),
-    ('^index/$', index)
-    ('^hello/$', hello)
+    ('^index/$', index),
+    ('^hello/$', hello),
+    ('^blog/$', blog),
+    ('^writeblog/$', writeblog),
     #('^index/$', index) 
     #url(r'^admin/', include(admin.site.urls)),
 )

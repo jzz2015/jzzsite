@@ -1,0 +1,282 @@
+.logintoplayout{
+	width: 100%;
+	height: 60px;
+	background-color: #FFF;
+}
+.logintoplayout .wrapper{
+	height: 60px;
+	margin: 0 auto;
+	background-color: #FFF;
+
+}
+.logintoplayoutlogo{
+	width: 400px;
+	float: left;
+}
+.logintoplayout div  span{
+	width: 200px;
+	height: 40px;
+	margin-top:17px;
+	font-size: 20px;
+	display: inline-block;
+	
+}
+.logintoplayout div > div +div{
+	height: 60px;
+	width: 310px;
+	padding-top:17 px;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	float: right;
+}
+.logintoplayout a{
+	color: #459AE9;
+	font-size: 20px;
+
+}
+.loginbanner{
+	width: 100%;
+	height: 600px;
+	background: url("images/bg2.jpg") center center;
+
+
+
+}
+.loginbanner .bannerleft{
+	width: 550px;
+	height: 300px;
+	background-color: #FFF;
+	margin:50px  0 0 50px ;
+	float: left;
+	font-size:30px;
+	color: #fff;
+
+
+
+}
+.bannerleft img{
+	margin: 50px;
+	width:200px;
+	height: 200px;
+}
+.bannerleft .fr{
+	padding-top: 50px;
+	color: #333;
+	font-family: "微软雅黑";
+	width: 250px;
+	height: 300px;
+}
+.bannerleft .fr p{
+	line-height: 40px;
+	font-size: 30px;
+}
+s{
+	font-size: 12px;
+}
+.loginbanner .bannerright{
+	
+	width: 400px;
+	height: 300px;
+	margin: 50px 15px;
+	padding-left:50px; 
+	border: solid 1px #eee;
+	border-radius: 3px;
+	float: right;
+	background-color: #fff;
+}
+.loginbanner .bannerright p{
+	width: 300px;
+	height: 30px;
+	margin: 50px 0 0 50px;
+	font-size: 22px;
+	font-family: "微软雅黑";
+	font-weight: 400;
+}
+.loginbanner .bannerright>div{
+	width: 300px;
+	height: 40px;
+	margin: 0 0 0 50px;
+	border-top: solid 1px #eee;
+	border-left: solid 1px #eee;
+	border-right: solid 1px #eee;
+	padding-left: 5px;
+	padding-top: 3px;
+}
+.loginbanner .bannerright>div+div{
+	width: 300px;
+	height: 40px;
+	margin: 0 0 0 50px;
+	border-bottom: solid 1px #eee;
+	padding-left: 5px;
+	padding-top: 3px;
+}
+.itembefore{
+	width: 30px;
+	height: 40px;
+	line-height: 30px;
+	margin: 0 0 0 10px;
+	font-size: 20px;
+	vertical-align: middle;
+}
+.loginbanner .bannerright input{
+	width: 240px;
+	height: 27px;
+	line-height: 27px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	padding-left: 10px;
+	vertical-align: middle;
+	border-radius: 3px;
+	border: none;
+	outline: none;
+}
+.loginbanner .bannerright input[type="checkbox"]{
+	width: 15px;
+	vertical-align: middle;
+	line-height: 20px;
+	margin:0;
+
+}
+.loginbanner .bannerright>.varia{
+	padding-top: 20px;
+	border: none;
+}
+.loginbanner .bannerright>div.varia+div{
+	border: none;
+}
+.varia > a{
+	color: #459AE9;
+	float: right;
+
+}
+.loginbanner .bannerright button{
+	width: 150px;
+	height: 30px;
+	background-color: #44B549;
+	margin-top: 8px;
+	color: white;
+	font-family: "微软雅黑";
+	font-size:16px;
+	padding-top: 4px;
+}
+.footer
+{
+	width: 100%;
+	height: 150px;
+	padding-top: 40px;
+	background-color: #fff;
+}
+.footertable{
+
+	height: 100px;
+}
+.footertable tr{
+	height: 30px;
+}
+.footertable tr >td{
+	width: 25%;
+	text-align: center;
+
+}
+/*------blog-----*/
+.blog-top{
+	width: 100%;
+	height: 50px;
+	/*background-color: #009788;*/
+	/*color: #fff;*/
+	font-size: 22px;
+	line-height: 50px;
+	padding: 0 50px;
+}
+.blog-top-menu>span{
+	margin-left:25px;
+}
+.blog-top a{
+	color:white;
+	text-decoration: none;
+}
+.blog-top a:hover{
+	color: #555;
+}
+.blog-body{
+	width: 100%;
+	height:100%;
+	background-color: #fff;
+}
+.blog-article{
+	width: 68%;
+	height: auto;
+	padding-left: 50px;
+
+}
+.article-item{
+	width: 100%;
+	height: auto;
+	margin-top: 30px;
+}
+.article-title{
+	width: 100%;
+	height: 50px;
+	font-size:30px; 
+	line-height: 50px;
+}
+.article-time{
+	height: 30px;
+	font-size: 18px;
+	line-height: 30px;
+	color: #bbb;
+}
+
+.article-guide{
+	height: auto;
+	font-size: 18px;
+	margin-top: 10px;
+
+}
+
+.blog-right-menu{
+	width: 30%;
+	height: auto;
+	padding-right:50px; 
+}
+.author-info{
+	width: 100%;
+	height: auto;
+	padding: 30px 30px 30px 0;
+
+}
+/*.author-info p{
+	font-size: 16px;
+	color: #555;
+}*/
+.author-img img{
+	width: 80px;
+	height: 80px;
+	border-radius: 40px;
+}
+.author-img p{
+	font-size: 18px;
+	color: yellow;
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+.author-img p:first-child{
+	color: yellow; 
+	margin-top:20px;
+
+}
+.share-btn-group{
+	width: 100%;
+	height: 40px;
+
+}
+.catalog dt{
+	font-size: 25px;
+
+
+}
+.catalog dd{
+	font-size: 18px;
+	margin: 3px 0;
+	color: #009788;
+}
