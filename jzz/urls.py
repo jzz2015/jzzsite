@@ -1,5 +1,6 @@
 from django.conf.urls import patterns, include, url
 from blog.views import *
+from blog.models import *
 from django.contrib import admin
 admin.autodiscover()
 
@@ -12,6 +13,8 @@ urlpatterns = patterns('',
     ('^hello/$', hello),
     ('^blog/$', blog),
     ('^writeblog/$', writeblog),
+    (r'^wbsub/$', wbsub),
+    (r'^ArticleShow/$', ArticleShow),
     #('^index/$', index) 
     #url(r'^admin/', include(admin.site.urls)),
 )
