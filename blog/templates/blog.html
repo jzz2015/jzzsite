@@ -19,8 +19,8 @@
 <div class="blog-top bground-special">
 	<div class="author-name fl"><a>{{ authorname }}</a></div>
 	<div class="blog-top-menu fr">
-		<span><a>Index</a></span>
-		<span><a href="writeblog.html">Write</a></span>
+		<span><a href="/blog">Index</a></span>
+		<span><a href="/writeblog">Write</a></span>
 		<span><a>Document</a></span>
 		<span><a>About</a></span>
 	</div>	
@@ -28,42 +28,15 @@
 
 <div class=" blog-body clearfix">
 	<div class="blog-article fl">
+
+		{% for post in blog_list %}
 		<div class="article-item">
-			<div class="article-title text-special">python config</div>
-			<div class="article-time">2016-07-17</div>
-			<div class="article-guide">today,i met a problem and i finfished it three hours ago...</div>
-			
+			<div class="article-title text-special">{{ post.title }}</div>
+			<div class="article-time">{{ post.pub_time }}</div>
+			<div class="article-guide">{{ post.content }}</div>
 		</div>
-		<div class="article-item">
-			<div class="article-title text-special">python 2</div>
-			<div class="article-time">2016-07-17</div>
-			<div class="article-guide">人民网北京2月24日电 (记者 刘阳)国家发展改革委近日发出通知，决定自2月25日零时起将汽、柴油价格每吨分别提高300元和290元，折算到90号汽油和0号柴油（全国平均）每升零售价格分别提高0.22元和0.25元。</div>
-			
-		</div>
-		<div class="article-item">
-			<div class="article-title text-special">python config</div>
-			<div class="article-time">2016-07-17</div>
-			<div class="article-guide">today,i met a problem and i finfished it three hours ago...</div>
-			
-		</div>
-		<div class="article-item">
-			<div class="article-title text-special">python 2</div>
-			<div class="article-time">2016-07-17</div>
-			<div class="article-guide">人民网北京2月24日电 (记者 刘阳)国家发展改革委近日发出通知，决定自2月25日零时起将汽、柴油价格每吨分别提高300元和290元，折算到90号汽油和0号柴油（全国平均）每升零售价格分别提高0.22元和0.25元。</div>
-			
-		</div>
-		<div class="article-item">
-			<div class="article-title text-special">python config</div>
-			<div class="article-time">2016-07-17</div>
-			<div class="article-guide">today,i met a problem and i finfished it three hours ago...</div>
-			
-		</div>
-		<div class="article-item">
-			<div class="article-title text-special">python 2</div>
-			<div class="article-time">2016-07-17</div>
-			<div class="article-guide">人民网北京2月24日电 (记者 刘阳)国家发展改革委近日发出通知，决定自2月25日零时起将汽、柴油价格每吨分别提高300元和290元，折算到90号汽油和0号柴油（全国平均）每升零售价格分别提高0.22元和0.25元。</div>
-			
-		</div>
+		{% endfor%}
+		
 
 	</div>
 

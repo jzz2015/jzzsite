@@ -12,9 +12,9 @@ urlpatterns = patterns('',
     ('^index/$', index),
     ('^hello/$', hello),
     ('^blog/$', blog),
+    ('^test/$', test),
     ('^writeblog/$', writeblog),
     (r'^wbsub/$', wbsub),
-    (r'^ArticleShow/$', ArticleShow),
     #('^index/$', index) 
-    #url(r'^admin/', include(admin.site.urls)),
+    url(r'^admin/', include(admin.site.urls)),
 )

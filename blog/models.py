@@ -1,5 +1,6 @@
 from django.db import models
 from django.http import HttpResponse
+from django.contrib import admin
 
 class user(models.Model):
     userno = models.CharField(max_length=11)
@@ -23,11 +24,7 @@ class Article(models.Model):
     def __unicode__(self):
         return self.title
 
-def ArticleShow(request):
-    response = ""
-    response1 = ""
-    list = Article.objects.all()
-    for var in list:
-        response1 += "title is"+ var.title + " and the content is:" + var.content + " "
-    response = response1
-    return HttpResponse("<p>" + response + "</p>")
+class ArticleAdmin(admin.ModelAdmin):
+   list_display = ('title','writer')
+
+admin.site.register(Article,ArticleAdmin)
